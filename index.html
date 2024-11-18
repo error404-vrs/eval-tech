@@ -3,101 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
-    <main>
-        <!-- div pour mettre ce qu'il y aura en haut de ma page. -->
-        <div class="head-page">
-            <!-- cette div me permet de mettre la gauche de mon haut de page. -->
-            <div class="left-head">
-                <!-- ma div a la classe title-page pour dire que c'est le titre "de la page" -->
-                <div class="title-page">
-                    <h1>
-                        10,000+ of our <br> users love our <br> products.
-                    </h1>
-                </div>
-                <!-- cette calsse vas me permettre de mettre le paragraphe qui "definit la page" -->
-                <div class="definite-paragraphe">
-                    <p>
-                        We only provide great products combined with excellent <br> customer service. See what our satisfied customers are <br> saying about our services.
-                    </p>
-                </div>
+    <main class="main-wrapper">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="main-heading">10.000+ of our user love our products</h1>
+                <p class="product-description">We only great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
             </div>
-            <!-- cette calsse vas reunir la partie droite du haut de ma page -->
-            <div class="right-head">
-                <!-- la classe avec la note des clients -->
-                <div class="rate-client">
-                    <!-- premiere note -->
-                    <ul class="ul-rate">
-                        <li class="rate-one"><img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> &nbsp; Rated 5 Stars in Reviews</li>
-                        <!-- deuxieme -->
-                        <li class="rate-two"><img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> &nbsp; Rated 5 Stars in Report Guru</li>
-                        <!-- troisieme -->
-                        <li class="rate-three"><img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> <img src="assets/images/star1.svg" alt=""> &nbsp; Rated 5 Stars in BestTech</li>
-                    </ul>
-                    </div>
-                </div>
-            </div> 
-        </div>
-        <!-- cette class represente tout le bas de ma page -->
-        <div class="foot-page">
-            <ul class="comment-ul">
-                <li class="first-comment">
-                    <!-- le haut du commentaire de colton, ce qui sera "a cote" -->
-                    <div class="head-colton-li">
-                        <img class="colton-pdp" src="assets/images/pdp-colton.png"  alt="">
-                       <div class="text-head-colton">
-                        <p class="name_colton">
-                            &nbsp; &nbsp; Colton Smith
-                        </p>
-                        <p class="verified-user">
-                            &nbsp; &nbsp; Verified Buyer
-                        </p>
-                       </div>
-                    </div>
-                    <p class="comment-colton">
-                        “ We needed the same printed design as <br> the one we had ordered a week prior. Not <br> only did they find the original order, but <br> we also received it in time. Excellent! ”
-                    </p>
+            <ul class="rating-reports">
+                <li class="rating-report">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <span class="rating-report-info">
+                 Rated 5 stars in Review
                 </li>
-                <li class="second-comment">
-                    <div class="head-irene-li">
-                        <img class="irene-pdp" src="assets/images/pdp-irene.png"  alt="">
-                        <div class="text-head-irene">
-                         <p class="name_irene">
-                             &nbsp; &nbsp; Irene Roberts
-                         </p>
-                         <p class="verified-user">
-                             &nbsp; &nbsp; Verified Buyer
-                         </p>
-                    </div>
-                    </div>
-                    <p class="comment-irene">
-                        “ Customer service is always excellent <br> and very quick turn around. Completely <br> delighted with the simplicity of the <br> purchase and the speed of delivery.”
-                    </p>
+
+                <li class="rating-report">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <span class="rating-report-info">
+                    Rated 5 stars in Report Guru
+                </span>
+
                 </li>
-                <li class="third-comment">
-                    <div class="head-anne-li">
-                        <img class="anne-pdp" src="assets/images/pdp-anne.png"  alt="">
-                        <div class="text-head-anne">
-                         <p class="name-anne">
-                             &nbsp; &nbsp; Anne Wallace
-                         </p>
-                         <p class="verified-user">
-                             &nbsp; &nbsp; Verified Buyer
-                         </p>
-                    </div>
-                    </div>
-                    <p class="comment-anne">
-                        “ Put an order with this company and can <br> only praise them for the very high <br> standard. Will definitely use them again <br> and recommend them to everyone! ”
-                    </p>
-                </li>
-                 </div>
+
+                <li class="rating-report">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <span class="rating-report-info">
+                     Rated 5 stars in BestTech
+                </span>
+                 </li>
             </ul>
         </div>
-        <!-- je lui met la classe bg pour bien reconnaitre -->
-        <img src="assets/images/deco-page.png" class="bg-image" alt="">
+        <div class="user-cards">
+            <div class="user-card-header">
+                <img src="./images/pdp-colton.png" alt="colton-smith"
+                class="">
+                <div class="user-card-main-info">
+                    <p class="user-name">Colton Smith</p>
+                    <p class="user-type">Verified Buyer</p>
+                </div>
+            </div>
+            <p class="user-testimonial">“ We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent! ”</p>
+        </div>
+        <div class="user-cards">
+        </div>
+        <div class="user-cards">
+        </div>
     </main>
 </body>
 </html>
