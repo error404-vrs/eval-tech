@@ -1,0 +1,139 @@
+/* J'ai mal organise mon code css, on s'y retrouve pas facilement je crois */
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=League+Spartan:wght@100..900&display=swap");
+
+*{
+    font-family: "League Spartan", sans-serif;
+}
+
+main{
+    background-color: white;
+    border-radius: 8px;
+}
+
+body {
+    min-height: 100vh;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.head-page {
+  display: flex;
+}
+
+.title-page {
+  line-height: 48px;
+  letter-spacing :2px;
+  margin-left: 165px;
+  color: #512051;
+  margin-top: 100px;
+  margin-right: 360px;
+}
+
+.definite-paragraphe{
+    margin-left: 165px;
+    line-height: 25px;
+    color: #927B91;
+  }
+
+.ul-rate {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 90px;
+  margin-right: -50px;
+  color: #512051;
+}
+
+.text-head-colton {
+  flex-direction: column;
+  margin-bottom: -10px;
+}
+
+.name_colton {
+  margin-bottom: -10px;
+  color: white;
+}
+
+li {
+  background-color: #f7f2f7;
+  padding: 10px 20px 10px 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.comment-ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  margin-left: 100px;
+  margin-right: 165px;
+  margin-bottom: 100px;
+}
+
+.head-colton-li {
+  display: flex;
+}
+
+.colton-pdp {
+  height: 40px;
+  margin-top: 12px;
+}
+
+.first-comment, .second-comment, .third-comment{
+    background-color: #512051;
+    border-radius: 8px;
+}
+
+.verified-user{
+    color: #EE69A4;
+}
+
+.name_irene {
+    margin-bottom: -10px;
+    color: white;
+  }
+
+  .irene-pdp {
+    height: 40px;
+    margin-top: 12px;
+  }
+
+  .head-irene-li {
+    display: flex;
+  }
+
+.anne-pdp {
+    height: 40px;
+    margin-top: 12px;
+  }
+
+  .name-anne {
+    margin-bottom: -10px;
+    color: white;
+  }
+
+  .head-anne-li {
+    display: flex;
+  }
+
+  .bg-image{
+    position: absolute;
+    margin-top: -522px;
+    right: 295px;
+    height: 523px;
+  }
+
+.rate-one, .rate-two, .rate-three{
+    margin: 12px;
+}
+
+.rate-one:hover{
+    margin: 16px;
+    color: #EE69A4;
+    border: 4px solid #512051;
+}
